@@ -1,0 +1,1 @@
+# Extraction-of-text-from-image-and-converting-it-to-speech
