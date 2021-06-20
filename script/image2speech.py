@@ -10,7 +10,7 @@ import PIL  # PIL is Python Imaging Language used for image processing technique
 from PIL import ImageDraw #used to draw the bounding boxes around the text
 #***********************************************************************************************#
 
-img1 = ".\images\pic.jpeg" #to get the image
+img1 = "pic" + str('.jpeg') #to get the image 
 im=PIL.Image.open(img1)   # for reading the image
 bounds=reader.readtext(img1, add_margin=0.3,width_ths=2.0,link_threshold=0.8,decoder='beamsearch',blocklist='=-')  # for reading the text in the image
 print(bounds) #printing the values of recongnized OCR language
